@@ -1,0 +1,29 @@
+import React from 'react'
+
+function Blogentry() {
+    return (
+        <div className="post">
+            <div className='image'>
+                <img alt="blogimg" src=" data:image/jpeg;base64,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" />
+            </div>
+
+            <div className='texts'>
+                <h2>Ocean JS</h2>
+                <p className='info'>
+                    <a className='author'>Callum Roberts</a>
+                    <time>2023-05-04 4:45</time>
+                </p>
+
+                <p className='summary'>JavaScript library to privately &
+                    securely publish, exchange, and consume
+                    data. With ocean. js, you can: Publish
+                    data services: downloadable files or
+                    compute-to-data. Create an ERC721 data NFT for each service, and ERC20 datatoken for access (1.0 datatokens to access)</p>
+            </div>
+
+
+        </div>
+    )
+}
+
+export default Blogentry
